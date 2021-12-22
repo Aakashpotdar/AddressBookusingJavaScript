@@ -109,4 +109,10 @@ PhoneNumber='+916754894364';
 Email='shubham@gmail.com';
 addData(FirstName,LastName,Address,City,Sate,PhoneNumber,Email,Zip);
 
-console.log(AddressBook)
+console.log(AddressBook);
+
+console.log(AddressBook.delete('shubham'));
+
+console.log(AddressBook);
+
+console.log('size of Address book : '+AddressBook.size);
